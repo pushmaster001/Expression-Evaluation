@@ -295,7 +295,7 @@ int evaluatePostfix(vector<string>& postfix,
 int main()
 {
     string expression;
-
+    cout << "Enter an expression: ";
     getline(cin, expression);
 
     vector<string> tokens = tokenize(expression);
